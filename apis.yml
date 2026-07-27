@@ -1,9 +1,26 @@
 aid: illoca
 name: illoca
-description: 'illoca is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'illoca is an AI-native design engine built for professional architects and design studios,
+  delivered through its product Tracing Paper. It helps architects move from early ideas to editable 2D
+  and 3D designs with more speed and control, supporting sketches, redlines, prompts, floor plans, massing
+  studies, iterative refinements, and exports for professional design workflows. Tracing Paper is built
+  for controllable architectural ideation and iteration with editable outputs that hand off into BIM/CAD
+  tools such as Autodesk Revit and Rhino. illoca is a portfolio company of bessemer-venture-partners
+  (sector: ai-ml). As an application-first company it currently exposes a marketing site and web
+  application rather than a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/illoca/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://illoca.com/images/og-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai Ml
+- Architecture
+- Design
+- Generative AI
+- Architectural Design
+- CAD
+- BIM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/illoca-domain-security.yml
 - type: Website
   url: https://illoca.com/
+- type: SignUp
+  url: https://app.illoca.com/sign-in
+- type: Login
+  url: https://app.illoca.com/sign-in
+- type: Pricing
+  url: https://illoca.com/?section=pricing
+- type: TermsOfService
+  url: https://illoca.com/legal/terms
+- type: PrivacyPolicy
+  url: https://illoca.com/legal/privacy
+- type: LLMsTxt
+  url: llms/illoca-llms.txt
+- type: LinkedIn
+  url: https://www.linkedin.com/company/illoca/
+- type: Twitter
+  url: https://x.com/app_illoca
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

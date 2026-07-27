@@ -1,0 +1,23 @@
+# illoca
+
+> illoca builds Tracing Paper, an AI-native design engine for professional architects.
+
+Tracing Paper helps architects move from early ideas to editable 2D and 3D designs. It supports sketches, redlines, prompts, floor plans, massing studies, iterative refinements, and exports for professional design workflows.
+
+## Primary pages
+
+- [Homepage](https://illoca.com/): Product overview, pricing, FAQ, and signup.
+- [Legal](https://illoca.com/legal): Terms, privacy policy, and copyright policy.
+- [Terms of Use](https://illoca.com/legal/terms): Service terms for illoca.
+- [Privacy Policy](https://illoca.com/legal/privacy): Data collection, privacy, and user rights.
+- [Copyright Dispute Policy](https://illoca.com/legal/dmca): DMCA and copyright process.
+
+## Product summary
+
+- Product: Tracing Paper
+- Company: illoca
+- Category: AI-native architectural design software
+- Audience: professional architects and design studios
+- Core capability: controllable architectural ideation and iteration with editable design outputs
+- Workflow fit: sketching, markups, BIM/CAD handoff, Autodesk Revit, Rhino
+- Contact: hello@illoca.com
